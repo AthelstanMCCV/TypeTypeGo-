@@ -1,0 +1,29 @@
+[gd_scene load_steps=3 format=3 uid="uid://bbnecsk3hjku5"]
+
+[ext_resource type="Script" uid="uid://bhekmh3rpiu7m" path="res://enemy.gd" id="1_7k104"]
+
+[sub_resource type="CircleShape2D" id="CircleShape2D_7k104"]
+
+[node name="Enemy" type="CharacterBody2D"]
+collision_layer = 2
+script = ExtResource("1_7k104")
+
+[node name="Sprite2D" type="Sprite2D" parent="."]
+position = Vector2(-67, 34)
+scale = Vector2(3, 3)
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+anchors_preset = -1
+offset_left = -100.0
+offset_top = 59.0
+offset_right = -36.0
+offset_bottom = 82.0
+bbcode_enabled = true
+fit_content = true
+scroll_active = false
+horizontal_alignment = 1
+vertical_alignment = 1
+
+[node name="CollisionShape2D" type="CollisionShape2D" parent="."]
+position = Vector2(-67, 34)
+shape = SubResource("CircleShape2D_7k104")

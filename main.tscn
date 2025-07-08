@@ -359,9 +359,9 @@ offset_bottom = 40.0
 [node name="Start" type="Button" parent="Button Manager"]
 layout_mode = 0
 offset_left = 449.0
-offset_top = 260.0
+offset_top = 303.0
 offset_right = 714.0
-offset_bottom = 308.0
+offset_bottom = 351.0
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_fonts/font = ExtResource("3_5vw27")
 theme_override_styles/hover = SubResource("StyleBoxTexture_4c57u")
@@ -371,9 +371,9 @@ text = "START GAME"
 [node name="Options" type="Button" parent="Button Manager"]
 layout_mode = 0
 offset_left = 449.0
-offset_top = 320.0
+offset_top = 363.0
 offset_right = 714.0
-offset_bottom = 368.0
+offset_bottom = 411.0
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_fonts/font = ExtResource("3_5vw27")
 theme_override_styles/hover = SubResource("StyleBoxTexture_5vw27")
@@ -383,9 +383,9 @@ text = "OPTIONS"
 [node name="Quit" type="Button" parent="Button Manager"]
 layout_mode = 0
 offset_left = 449.0
-offset_top = 379.0
+offset_top = 422.0
 offset_right = 714.0
-offset_bottom = 432.0
+offset_bottom = 475.0
 theme_override_colors/font_color = Color(0, 0, 0, 1)
 theme_override_fonts/font = ExtResource("3_5vw27")
 theme_override_styles/hover = SubResource("StyleBoxTexture_kek77")
@@ -411,7 +411,6 @@ size_flags_horizontal = 3
 texture = ExtResource("10_dg77c")
 
 [node name="RichTextLabel" type="RichTextLabel" parent="HBoxContainer/Middle Cap"]
-z_index = 1
 layout_mode = 2
 offset_left = 8.0
 offset_top = -2.0
