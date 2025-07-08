@@ -1,0 +1,10 @@
+[gd_scene format=3 uid="uid://c528dxwujdnts"]
+
+[node name="Options" type="Node2D"]
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+offset_left = 503.0
+offset_top = 157.0
+offset_right = 598.0
+offset_bottom = 197.0
+text = "OPTIONS"

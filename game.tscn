@@ -1,0 +1,16 @@
+[gd_scene load_steps=3 format=3 uid="uid://sr0tnf40om65"]
+
+[ext_resource type="Script" uid="uid://b0racqq6bdo8o" path="res://game.gd" id="1_e2o6t"]
+[ext_resource type="PackedScene" uid="uid://d1w7wmvau1ujk" path="res://fade_transition.tscn" id="2_feb5d"]
+
+[node name="Game" type="Node2D"]
+script = ExtResource("1_e2o6t")
+
+[node name="RichTextLabel" type="RichTextLabel" parent="."]
+offset_left = 459.0
+offset_top = 279.0
+offset_right = 587.0
+offset_bottom = 319.0
+text = "GAME"
+
+[node name="fade_transition" parent="." instance=ExtResource("2_feb5d")]
